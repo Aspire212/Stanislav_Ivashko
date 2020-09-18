@@ -63,28 +63,28 @@
                 <legend>Интересы</legend>
               <fieldset>
                   <legend>Хобби</legend>
-                <input type="checkbox" name="hobby" value="hobby1">Рыбалка<br>
-                <input type="checkbox" name="hobby" value="hobby2">Астрономия<br>
-                <input type="checkbox" name="hobby" value="hobby3">Дайвинг<br>
-                <input type="checkbox" name="hobby" value="hobby4">Марки<br>
+                <input type="checkbox" name="hobby[]" value=hobby1>Рыбалка<br>
+                <input type="checkbox" name="hobby[]" value=hobby2>Астрономия<br>
+                <input type="checkbox" name="hobby[]" value=hobby3>Дайвинг<br>
+                <input type="checkbox" name="hobby[]" value=hobby4>Марки<br>
               </fieldset>
             <fieldset>
                 <legend>Домашние животные</legend>
-                <select name="pets" multiple size="12">
+                <select name="pets[]" multiple size="12">
                     <optgroup label="Попугаи">
-                        <option value="p1">Волнистый</option>
-                        <option value="p2">Ара</option>
-                        <option value="p3">Неразлучник</option>
+                        <option value=p1>Волнистый</option>
+                        <option value=p2>Ара</option>
+                        <option value=p3>Неразлучник</option>
                     </optgroup>
                     <optgroup label="Рыбы">
-                    <option value="p4"> Караси</option>
-                        <option value="p5">Окуни</option>
-                        <option value="p6">Осётр</option>
+                    <option value=p4>Караси</option>
+                        <option value=p5>Окуни</option>
+                        <option value=p6>Осётр</option>
                     </optgroup>
                     <optgroup label="Птицы">
-                        <option value="p7">Стая ворон</option>
-                        <option value="p8">Аист</option>
-                        <option value="p9">Археоптерикс</option>
+                        <option value=p7>Стая ворон</option>
+                        <option value=p8>Аист</option>
+                        <option value=p9>Археоптерикс</option>
                     </optgroup>
                 </select>
             </fieldset>        
