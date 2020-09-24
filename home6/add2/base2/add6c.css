@@ -1,0 +1,17 @@
+header{
+     text-align: right;
+     margin-bottom: 50px;
+}
+
+h2{
+    margin-left: 60px;
+     font-family: 'Caveat', cursive;
+    font-style:italic;
+     text-decoration: underline;
+    }
+
+    article{
+         margin-top: 30px;
+         font-family: 'Caveat', cursive;
+         font-style: oblique;
+    }
