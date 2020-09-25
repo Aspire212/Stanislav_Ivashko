@@ -1,0 +1,17 @@
+#list{
+    width: 350px;
+}
+.one{
+    list-style-type: upper-roman;
+}
+.two{
+    list-style-type: lower-roman;
+}
+
+#black{
+    background-color: black; color: green;
+    width: 400px;
+    text-overflow: ellipsis;
+    overflow: auto;
+    max-height: 72px;
+}
