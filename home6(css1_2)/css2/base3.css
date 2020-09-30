@@ -13,10 +13,11 @@
     background-color: rgb(255, 230, 0);
     width: auto;
     margin-left: 15em;
-    
+    overflow: hidden;
+    margin-bottom: .2em ;
     
 }
- .article div{
+ .article1{
     margin-bottom: .2em ;
 }
 .image{
