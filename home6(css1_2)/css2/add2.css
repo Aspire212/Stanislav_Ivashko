@@ -1,0 +1,30 @@
+ *{
+	 margin: 0;
+	 padding: 0;
+ }
+.conteiner {
+	display: flex;
+	flex-direction: row;
+}
+
+.article {
+	flex: 1 1 auto;
+}
+
+.navigation{
+	align-self: flex-start;
+	background-color:green;
+	flex: 0 0 15em;
+}
+
+.article1{
+	background-color:lightsteelblue;
+	margin-bottom: .2em;
+	overflow: hidden;
+}
+img{
+	float: right;
+}
+.footer{
+	background-color: lightsalmon;
+}

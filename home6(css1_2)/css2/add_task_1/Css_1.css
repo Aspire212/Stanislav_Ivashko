@@ -1,0 +1,14 @@
+.onediv {
+	background-image: url(img/l-t.png), url(img/r-t.png), url(img/l-b.png), url(img/r-b.png), url(img/t.png), url(img/b.png), url(img/r.png), url(img/l.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+	background-position: top left, top right, left bottom, right bottom, top, bottom, right, left;
+	width: 80%;
+	padding: 2.5em;
+}
+
+.borderimage {
+	border-style: solid;
+	border-width: 2em;
+	border-image-source: url('img/ramka.png') ;
+	border-image-slice: 100;
+}

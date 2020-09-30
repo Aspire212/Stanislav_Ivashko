@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.conteiner{
+    background-color: lightblue;
+}
+.nav{
+    width: 15em;
+    background-color: green;
+    float: left;
+}
+.article{
+    background-color: rgb(255, 230, 0);
+    width: auto;
+    margin-left: 15em;
+    
+    
+}
+ .article div{
+    margin-bottom: .2em ;
+}
+.image{
+    float: right;
+}
+.footer{
+    clear: both;
+    background-color: hotpink;
+}
