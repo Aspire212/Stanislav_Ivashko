@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=j, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+
+div ul li {
+  margin-left: 2px;
+  background-color: lightgray;
+  border: solid 1px;
+  cursor: pointer;
+  width: 100px;
+}
+
+div>ul>li {
+  float: left;
+  position: relative;
+  } 
+
+div ul ul {
+  display: none;
+  margin-left: -2px;
+  position: absolute;
+}
+div>ul>li:hover{
+  background-color: grey;  
+  
+}
+div ul li:hover ul{
+  display: block;
+}
+
+@media all and (max-width: 708px) {
+  div>ul>li {
+    float: none;
+    } 
+    
+  div ul li:hover ul{
+    position: absolute;
+    display: block;
+    left: 80%;
+    top: 20%;
+    z-index: 1;
+    }
+}
+        
+  
+        
+    </style>
+</head>
+<body>
+    <div>
+      <ul>
+        <li> Понедельник
+          <ul>
+            <li>Завтрак</li>
+            <li>Обед</li>
+            <li>Ужин</li>
+          </ul>
+        </li>
+        <li> Вторник
+          <ul>
+            <li>Завтрак</li>
+            <li>Обед</li>
+            <li>Ужин</li>
+          </ul>
+        </li>
+        <li> Среда
+          <ul>
+            <li>Завтрак</li>
+            <li>Обед</li>
+            <li>Ужин</li>
+          </ul>
+        </li>
+        <li> Четверг
+          <ul>
+            <li>Завтрак</li>
+            <li>Обед</li>
+            <li>Ужин</li>
+          </ul>
+        </li>
+        <li> Пятница
+          <ul>
+            <li>Завтрак</li>
+            <li>Обед</li>
+            <li>Ужин</li>
+          </ul>
+        </li>
+        <li> Суббота
+          <ul>
+            <li>Завтрак</li>
+            <li>Обед</li>
+            <li>Ужин</li>
+          </ul>
+        </li>
+        <li> Воскресенье
+          <ul>
+            <li>Завтрак</li>
+            <li>Обед</li>
+            <li>Ужин</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </body>
+  
+  </html>
