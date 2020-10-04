@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      table{
+        caption{
+            text-transform: uppercase;
+            caption-side: bottom;
+        }
+     table{
          border-style: dotted;
          border-width: 1px;
+         border-left-width: 0px;
+         border-right-width: 0px;
          border-color: black;
          border-collapse: collapse;
      }
@@ -15,22 +21,31 @@
          
          border-style: dotted;
          border-width: 1px;
+         border-left-width: 0px;
          border-color: black;
      }
      td{
          border-style: dotted;
          border-width: 1px;
+         border-right-width: 0px;
          border-color: black;
     
      }
-
-     th:nth-child(n+3){
-         text-align: left;
+     
+     tr:nth-child(odd){
+         background-color: lightgray;
      }
-     table:nth-child(2bh){
+     tr:nth-of-type(n+1){
+     text-align: left;
+     }
+     tr:first-child{
+         text-align: center;
          background-color: gray;
      }
-     
+     tr:hover{
+         background-color: lightblue;
+        cursor: pointer;
+     }
 
 
     </style>
